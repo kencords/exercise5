@@ -1,0 +1,21 @@
+package ecc.cords;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Row{
+
+	private List<Cell> cells = new ArrayList<>();
+
+	public List<Cell> getCells(){
+		return cells;
+	}
+
+	public int getSize(){
+		return cells.size();
+	}
+
+	public void setCells(List<Cell> cells){
+		this.cells = cells;
+	}
+}
